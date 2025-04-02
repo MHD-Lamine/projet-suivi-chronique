@@ -1,0 +1,57 @@
+
+# ---- Flutter / Dart ----
+**/build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+.idea/
+*.iml
+
+# ---- Android Studio / VS Code ----
+.vscode/
+*.swp
+*.swo
+*.log
+
+# ---- Python / Flask ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+env/
+venv/
+instance/
+*.db
+*.sqlite3
+*.egg-info/
+
+# ---- Node / n8n ----
+node_modules/
+.n8n/
+
+# ---- Docker ----
+*.env
+docker-compose.override.yml
+**/.dockerignore
+
+# ---- OS / système ----
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+*.orig
+
+# ---- Tests / Debug ----
+coverage/
+test-output/
+*.test.js
+
+# ---- Compilations / Firmwares ----
+*.bin
+*.elf
+*.hex
+*.ino.*
+*.dSYM/
