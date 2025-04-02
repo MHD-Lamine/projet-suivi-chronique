@@ -1,5 +1,6 @@
 // lib/main.dart
 import 'package:flutter/material.dart';
+import 'screens/login_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,9 +15,7 @@ class MyApp extends StatelessWidget {
       title: 'Suivi Chronique',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.indigo),
-      home: const Scaffold(
-        body: Center(child: Text("Bienvenue dans l'app Suivi Chronique")),
-      ),
+      home: const LoginScreen(),
     );
   }
 }
